@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Registration Form</h1>
+    <form onsubmit="return registrationForm()" action="./index1.html">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="contact">Contact:</label>
+        <input type="text" name="contact" id="contact">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <label for="conf_pass">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="conf_pass">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
